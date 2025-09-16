@@ -6,8 +6,8 @@ from pipeline.predictors.NeuralNetwork import NNModel
 from pipeline.predictors.Linear import LinearModel
 from src import util
 import tensorflow as tf
-from learning_problem.bfgs_optimizer import OptimizerBFGS
-from learning_problem.sgd_optimizer import OptimizerSGD
+from src.learning.bfgs_optimizer import OptimizerBFGS
+from src.learning.sgd_optimizer import OptimizerSGD
 import multiprocessing as mp
 
 
